@@ -61,6 +61,77 @@ h1::selection {
 	color: #fff;
 }
 
+.CustomTooltipParent {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.CustomTooltip1 {
+	width: 3rem;
+	background-color: #1b1b1b;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.2rem;
+	padding: 0.2rem 0;
+	position: absolute;
+	bottom: 150%;
+	left: 91.3%;
+}
+.CustomTooltip1::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #1b1b1b transparent transparent transparent;
+}
+
+.CustomTooltip2 {
+	width: 3rem;
+	background-color: #1b1b1b;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.2rem;
+	padding: 0.2rem 0;
+	position: absolute;
+	bottom: 150%;
+	left: 71.3%;
+}
+.CustomTooltip2::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #1b1b1b transparent transparent transparent;
+}
+
+.CustomTooltip3 {
+	width: 3rem;
+	background-color: #1b1b1b;
+	color: #fff;
+	text-align: center;
+	border-radius: 0.2rem;
+	padding: 0.2rem 0;
+	position: absolute;
+	bottom: 150%;
+	left: 51.2%;
+}
+.CustomTooltip3::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #1b1b1b transparent transparent transparent;
+}
+
 @media (max-width: 1025px) {
 	.gridCardParent {
 		position: static;
